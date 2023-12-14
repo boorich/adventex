@@ -1,0 +1,50 @@
+{
+  "name": "Labyrinth",
+  "quests": [
+    {
+      "place": "Cursed Labyrinth",
+      "quests": [
+        {
+          "name": "Survive the Cursed Labyrinth",
+          "type": "main",
+          "description": "Enter the treacherous 'Cursed Labyrinth' and navigate its deadly traps, puzzles, and dark corridors. Survive the maze, fend off 'Cursed Minotaurs,' and find a way out.",
+          "enemies": ["Cursed Minotaurs", "Labyrinth Shadows"],
+          "boss": null,
+          "questLoot": ["Maze Map", "Labyrinthine Medallion"]
+        },
+        {
+          "name": "Solve the Riddle of the Labyrinth's Heart",
+          "type": "main",
+          "description": "Discover the hidden heart of the labyrinth and 'Solve the Riddle of the Labyrinth's Heart.' Seek guidance from ancient spirits and outwit enigmatic puzzles to reach the labyrinth's core.",
+          "enemies": ["Labyrinth Guardian", "Puzzle Phantoms"],
+          "boss": null,
+          "questLoot": ["Heartstone Key", "Eldertome of Labyrinth"]
+        },
+        {
+          "name": "The Minotaur's Curse",
+          "type": "side",
+          "description": "Uncover the tragic history of the 'Cursed Minotaurs' and help break their curse. Explore hidden chambers, find 'Minotaur Artifacts,' and seek redemption for these tormented souls.",
+          "enemies": ["Cursed Minotaur Spirits", "Minotaur Artifacts"],
+          "boss": null,
+          "questLoot": ["Minotaur's Tear", "Labyrinth's Blessing"]
+        },
+        {
+          "name": "Labyrinth of Illusions",
+          "type": "side",
+          "description": "Confront the 'Puzzle Phantoms' who manipulate illusions within the labyrinth. Solve their intricate illusions and uncover the truth hidden behind their tricks.",
+          "enemies": ["Illusionary Phantoms", "Enchanted Illusions"],
+          "boss": null,
+          "questLoot": ["Illusion Shards", "Labyrinthian Prism"]
+        },
+        {
+          "name": "The Enigmatic Relic",
+          "type": "main",
+          "description": "Hunt for the elusive 'Labyrinth Relic' said to grant incredible power. Outsmart guardian puzzles and overcome traps to retrieve this ancient treasure.",
+          "enemies": ["Relic Guardians", "Trap Mechanisms"],
+          "boss": null,
+          "questLoot": ["Labyrinth Relic", "Relic's Resonance"]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "name": "Library",
+  "quests": [
+    {
+      "place": "Ancient Library",
+      "quests": [
+        {
+          "name": "Unlock the Wisdom of the Ancients",
+          "type": "main",
+          "description": "Embark on a quest to unlock the ancient wisdom contained within the 'Ancient Library.' Seek out the 'Spectral Tomes of Knowledge' and protect them from those who would misuse their power.",
+          "enemies": ["Knowledge Seekers", "Arcane Scribes"],
+          "boss": "Archivist Lysandra",
+          "questLoot": ["Spectral Tomes", "Lysandra's Quill"]
+        },
+        {
+          "name": "Defend the Library's Secrets",
+          "type": "main",
+          "description": "Defend the secrets of the 'Ancient Library' from a group of rogue sorcerers who seek forbidden knowledge. Confront the leader, 'Ebonmaw the Forbidden,' and put an end to their intrusion.",
+          "enemies": ["Rogue Sorcerers", "Forbidden Apprentices"],
+          "boss": "Ebonmaw the Forbidden",
+          "questLoot": ["Forbidden Grimoire", "Ebonmaw's Sigil"]
+        },
+        {
+          "name": "Whispers of the Spirits",
+          "type": "side",
+          "description": "Listen to the whispers of the ancient spirits dwelling in the library's archives. Aid them in finding closure and understanding the mysteries of their past.",
+          "enemies": ["Restless Spirits", "Ancient Archivists"],
+          "boss": null,
+          "questLoot": ["Echoing Memories", "Spiritual Relics"]
+        },
+        {
+          "name": "The Lost Codex",
+          "type": "side",
+          "description": "Search for the 'Lost Codex,' a legendary tome said to contain forgotten spells and incantations. Traverse the labyrinthine stacks and outwit the guardians of knowledge to retrieve it.",
+          "enemies": ["Guardians of Knowledge", "Scripted Sentinels"],
+          "boss": null,
+          "questLoot": ["Lost Codex", "Scriptmaster's Quill"]
+        },
+        {
+          "name": "Arcane Anomalies",
+          "type": "main",
+          "description": "Investigate a series of 'Arcane Anomalies' plaguing the library. Track down the source of these disturbances and confront the rogue mage, 'Aetherius the Unbound.'",
+          "enemies": ["Arcane Aberrations", "Eldritch Phantoms"],
+          "boss": "Aetherius the Unbound",
+          "questLoot": ["Anomaly Crystals", "Aetherius's Grimoire"]
+        }
+      ]
+    }
+  ]
+}

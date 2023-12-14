@@ -1,0 +1,186 @@
+{
+  "name": "lore_adherence_check",
+  "description": "Check user input adherence to the dark and mysterious medieval fantasy world of Dúnbane's lore.",
+  "parameters": {
+    "type": "object",
+    "properties": {
+      "world": {
+        "type": "object",
+        "properties": {
+          "name": {
+            "type": "string",
+            "description": "The name of the dark and mysterious medieval fantasy world."
+          },
+          "description": {
+            "type": "string",
+            "description": "A description of the world's atmosphere and themes."
+          },
+          "themes": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "description": "Themes that define the world (e.g., Darkness, Mystery, Ancient Prophecies)."
+          }
+        },
+        "required": ["name", "description", "themes"]
+      },
+      "characters": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "name": {
+              "type": "string",
+              "description": "The name of a character."
+            },
+            "description": {
+              "type": "string",
+              "description": "A description of the character's background and traits."
+            },
+            "background": {
+              "type": "string",
+              "description": "The character's backstory and motivations."
+            },
+            "notable_traits": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              },
+              "description": "Notable traits or possessions of the character."
+            }
+          },
+          "required": ["name", "description", "background", "notable_traits"]
+        }
+      },
+      "locations": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "name": {
+              "type": "string",
+              "description": "The name of a location."
+            },
+            "description": {
+              "type": "string",
+              "description": "A description of the location's features and atmosphere."
+            },
+            "notable_features": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              },
+              "description": "Notable features or landmarks of the location."
+            }
+          },
+          "required": ["name", "description", "notable_features"]
+        }
+      },
+      "artifacts": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "name": {
+              "type": "string",
+              "description": "The name of an artifact."
+            },
+            "description": {
+              "type": "string",
+              "description": "A description of the artifact's origin and powers."
+            },
+            "origin": {
+              "type": "string",
+              "description": "The artifact's backstory and where it came from."
+            }
+          },
+          "required": ["name", "description", "origin"]
+        }
+      },
+      "start_area": {
+        "type": "object",
+        "description": "The starting area of the game, serving as a tutorial for character creation.",
+        "properties": {
+          "tutorial_text": {
+            "type": "string",
+            "description": "Welcome to the world of Dúnbane! In this tutorial, you'll create your character."
+          },
+          "choose_name": {
+            "type": "string",
+            "description": "Choose your character's name."
+          },
+          "choose_gender": {
+            "type": "string",
+            "description": "Choose your character's gender (Male/Female/Non-binary)."
+          },
+          "choose_age": {
+            "type": "integer",
+            "description": "Choose your character's age."
+          },
+          "choose_job": {
+            "type": "string",
+            "description": "Choose your character's job (Mage Apprentice/Warrior Apprentice/Archer Apprentice/Healer Apprentice)."
+          }
+        },
+        "required": [
+          "tutorial_text",
+          "choose_name",
+          "choose_gender",
+          "choose_age",
+          "choose_job"
+        ]
+      },
+      "quests": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "name": {
+              "type": "string",
+              "description": "The name of a quest."
+            },
+            "description": {
+              "type": "string",
+              "description": "A description of the quest's objectives and challenges."
+            },
+            "completed": {
+              "type": "boolean",
+              "description": "Indicates whether the quest has been completed legitimately."
+            }
+          },
+          "required": ["name", "description", "completed"]
+        }
+      }
+    },
+    "required": ["world", "characters", "locations", "artifacts", "start_area"]
+  },
+  "error_messages": {
+    "lore_violation": "Input violates the lore of Dúnbane. Please ensure adherence to the game's lore.",
+    "quest_cheating": "Quest cheating detected. Please complete quests legitimately."
+  },
+  "preprocessing": [
+    {
+      "if": {
+        "not": {
+          "property": "quests",
+          "required": false
+        }
+      },
+      "then": {
+        "for_each": "quest",
+        "do": {
+          "if": {
+            "not": {
+              "property": "quest.completed",
+              "required": false
+            }
+          },
+          "then": {
+            "error": "quest_cheating"
+          }
+        }
+      }
+    }
+  ]
+}

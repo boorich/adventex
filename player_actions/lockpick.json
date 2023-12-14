@@ -1,0 +1,9 @@
+{
+  "name": "lockpick",
+  "description": "Attempt to pick a lock on a locked object.",
+  "parameters": {
+    "type": "object",
+    "properties": {},
+    "required": []
+  }
+}

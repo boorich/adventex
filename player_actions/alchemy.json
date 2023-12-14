@@ -1,0 +1,14 @@
+{
+  "name": "alchemy",
+  "description": "Brew potions or create magical elixirs using collected ingredients. You can only use this command if you have the required ingredients in your inventory.",
+  "parameters": {
+    "type": "object",
+    "properties": {
+      "recipe": {
+        "type": "string",
+        "description": "The name of the potion or elixir to brew."
+      }
+    },
+    "required": ["recipe"]
+  }
+}

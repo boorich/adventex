@@ -1,0 +1,50 @@
+{
+  "name": "Swamp",
+  "quests": [
+    {
+      "place": "Eldritch Mire",
+      "quests": [
+        {
+          "name": "Unlock the Secrets of the Eldritch Mire",
+          "type": "main",
+          "description": "Delve into the heart of the 'Eldritch Mire,' deciphering its arcane mysteries. Seek the guidance of the 'Wise Wyrmling' and explore the 'Eldertree Sanctum.' Unearth ancient 'Mystic Runes' to understand the mire's secrets.",
+          "enemies": ["Eldritch Wyrms", "Arcane Wisps"],
+          "boss": null,
+          "questLoot": ["Eldertree Branch", "Mystic Runes"]
+        },
+        {
+          "name": "Defend Against the Arcane Invasion",
+          "type": "main",
+          "description": "Defend the 'Eldritch Mire' from an 'Arcane Invasion.' Repel 'Arcane Invaders' seeking to corrupt the mire's magic. Seek aid from 'Spirit Wardens' and gather 'Eldertree Essence' to strengthen your defenses.",
+          "enemies": ["Arcane Invaders", "Eldertree Guardians"],
+          "boss": "Arcane Overlord",
+          "questLoot": ["Eldertree Essence", "Astral Shroud"]
+        },
+        {
+          "name": "Treachery in the Murkwood",
+          "type": "side",
+          "description": "Investigate the 'Murkwood Treachery' within the 'Eldritch Mire.' Uncover the truth behind the 'Shadow Council' conspiracy. Confront 'Scheming Shadows' and recover 'Stolen Relics' to reveal the traitors.",
+          "enemies": ["Scheming Shadows", "Corrupted Councilors"],
+          "boss": null,
+          "questLoot": ["Stolen Relics", "Shadowy Scrolls"]
+        },
+        {
+          "name": "Guardians of the Eldertree",
+          "type": "main",
+          "description": "Become a 'Guardian of the Eldertree' and protect the heart of the mire. Face off against 'Eldertree Defilers' and preserve the 'Ancient Heartwood.' Harness the power of 'Eldertree Runes' to thwart dark forces.",
+          "enemies": ["Eldertree Defilers", "Shadowstalkers"],
+          "boss": "Eldertree Guardian",
+          "questLoot": ["Ancient Heartwood", "Eldertree Runes"]
+        },
+        {
+          "name": "Cleansing the Tainted Waters",
+          "type": "side",
+          "description": "Purify the 'Tainted Waters' of the mire and restore its vitality. Confront 'Toxic Terrors' and seek guidance from 'Water Nymphs.' Collect 'Mystic Pearls' to cleanse the waters and save the 'Eldertree Spirits.'",
+          "enemies": ["Toxic Terrors", "Corrupted Spirits"],
+          "boss": "Mire Warden",
+          "questLoot": ["Mystic Pearls", "Pure Waterskin"]
+        }
+      ]
+    }
+  ]
+}

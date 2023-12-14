@@ -1,0 +1,50 @@
+{
+  "name": "Moonlit",
+  "quests": [
+    {
+      "place": "Moonlit Glade",
+      "quests": [
+        {
+          "name": "Befriend the Moonlit Faeries",
+          "type": "main",
+          "description": "Forge a bond with the ethereal 'Moonlit Faeries' residing in the Moonlit Glade. Gain their trust by assisting them in warding off threats from encroaching darkness. Explore the serene glade, protect it from 'Nocturnal Stags,' and learn the ancient faerie rituals.",
+          "enemies": ["Nocturnal Stags"],
+          "boss": null,
+          "questLoot": ["Faerie Dust"]
+        },
+        {
+          "name": "Protect the Glade from Darkness",
+          "type": "main",
+          "description": "Defend the Moonlit Glade from the encroaching forces of darkness that seek to extinguish its serene beauty. Battle 'Shadowling Terrors' and 'Nightshade Beasts' while uncovering the source of this malevolence.",
+          "enemies": ["Shadowling Terrors", "Nightshade Beasts"],
+          "boss": null,
+          "questLoot": ["Moonlit Wardstone"]
+        },
+        {
+          "name": "Retrieve the Moonstone Amulet",
+          "type": "side",
+          "description": "Embark on a side quest to retrieve the stolen 'Moonstone Amulet,' a powerful artifact of the Moonlit Glade. Track down the cunning 'Moonlight Thieves' who took it and navigate the glade's enchanting yet perilous terrain.",
+          "enemies": ["Moonlight Thieves"],
+          "boss": null,
+          "questLoot": ["Moonstone Amulet"]
+        },
+        {
+          "name": "Awaken the Guardians of Light",
+          "type": "main",
+          "description": "Discover the 'Guardians of Light,' ancient protectors of the Moonlit Glade who have slumbered for centuries. To awaken them, gather 'Lunar Essences' from the glade's flora and offer them at the 'Shrine of Illumination.'",
+          "enemies": [],
+          "boss": null,
+          "questLoot": ["Lunar Essences", "Illumination's Blessing"]
+        },
+        {
+          "name": "Restore the Balance of Day and Night",
+          "type": "side",
+          "description": "Help restore the delicate balance between day and night within the Moonlit Glade. Seek out the 'Twilight Wisps' that hold the power to influence this balance and protect them from harm.",
+          "enemies": ["Nightfall Shadows"],
+          "boss": null,
+          "questLoot": ["Twilight Essence"]
+        }
+      ]
+    }
+  ]
+}

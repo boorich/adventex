@@ -1,0 +1,21 @@
+{
+    "name": "LocalizePlayerWithinScene",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "scene_name": {
+          "type": "string",
+          "description": "The name of the scene to which the player is localized."
+        },
+        "player_id": {
+          "type": "string",
+          "description": "Unique identifier for the player to ensure proper localization."
+        }
+      },
+      "required": [
+        "scene_name",
+        "player_id"
+      ]
+    },
+    "description": "Restricts player interactions to a specific scene in a text-based adventure game, ensuring immersion by limiting available options."
+  }

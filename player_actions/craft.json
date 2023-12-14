@@ -1,0 +1,14 @@
+{
+  "name": "craft",
+  "description": "Combine items to craft new items or tools.",
+  "parameters": {
+    "type": "object",
+    "properties": {
+      "items": {
+        "type": "array",
+        "description": "List of items to combine for crafting."
+      }
+    },
+    "required": ["items"]
+  }
+}

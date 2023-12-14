@@ -1,0 +1,18 @@
+{
+  "name": "manage_inventory",
+  "description": "Allows the player to manage their inventory, including viewing, using, and dropping items.",
+  "parameters": {
+    "type": "object",
+    "properties": {
+      "action": {
+        "type": "string",
+        "description": "The action to perform on the inventory (e.g., view, use, drop)."
+      },
+      "item": {
+        "type": "string",
+        "description": "The item to perform the action on (if applicable)."
+      }
+    },
+    "required": ["action"]
+  }
+}

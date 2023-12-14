@@ -1,0 +1,9 @@
+{
+  "name": "save",
+  "description": "Saves your current progress in the game.",
+  "parameters": {
+    "type": "object",
+    "properties": {},
+    "required": []
+  }
+}

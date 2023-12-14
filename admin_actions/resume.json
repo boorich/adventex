@@ -1,0 +1,9 @@
+{
+  "name": "resume",
+  "description": "Resumes the game after a pause.",
+  "parameters": {
+    "type": "object",
+    "properties": {},
+    "required": []
+  }
+}

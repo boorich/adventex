@@ -1,0 +1,14 @@
+{
+  "name": "load",
+  "description": "Loads a previously saved game state.",
+  "parameters": {
+    "type": "object",
+    "properties": {
+      "name": {
+        "type": "string",
+        "description": "The name of the savegame to load."
+      }
+    },
+    "required": ["name"]
+  }
+}

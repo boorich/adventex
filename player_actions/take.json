@@ -1,0 +1,14 @@
+{
+  "name": "take",
+  "description": "Picks up an item of interest.",
+  "parameters": {
+    "type": "object",
+    "properties": {
+      "item": {
+        "type": "string",
+        "description": "The item to take."
+      }
+    },
+    "required": ["item"]
+  }
+}

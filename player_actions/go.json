@@ -1,0 +1,14 @@
+{
+  "name": "go",
+  "description": "Directs your character to move in a specified direction or to a specific location.",
+  "parameters": {
+    "type": "object",
+    "properties": {
+      "direction_location": {
+        "type": "string",
+        "description": "The direction or location to move to."
+      }
+    },
+    "required": ["direction_location"]
+  }
+}

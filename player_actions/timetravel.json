@@ -1,0 +1,9 @@
+{
+  "name": "time travel",
+  "description": "Travel to different time periods within the game world.",
+  "parameters": {
+    "type": "object",
+    "properties": {},
+    "required": []
+  }
+}

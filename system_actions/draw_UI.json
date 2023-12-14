@@ -1,0 +1,45 @@
+{
+    "name": "draw_UI",
+    "description": "Renders the user interface for the 'Dúnbane Adventure' game, displaying various game elements such as player status, inventory, equipment, surroundings, game state, and possible actions. The function dynamically updates based on the current state of the game and player's attributes.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "player_status": {
+                "type": "string",
+                "description": "Markdown table representation of player's current status including attributes like health, mana, level, and experience.",
+                "contentMediaType": "text/markdown-table"
+            },
+            "inventory": {
+                "type": "string",
+                "description": "Markdown table representation of the player's current inventory items.",
+                "contentMediaType": "text/markdown-table"
+            },
+            "equipment": {
+                "type": "string",
+                "description": "Markdown table showing the player's equipped items in various slots.",
+                "contentMediaType": "text/markdown-table"
+            },
+            "surroundings": {
+                "type": "string",
+                "description": "Markdown table describing the player's current surroundings, including location, weather, and time of day.",
+                "contentMediaType": "text/markdown-table"
+            },
+            "npcs": {
+                "type": "string",
+                "description": "Markdown table naming the NPCs in the the player's current scene.",
+                "contentMediaType": "text/markdown-table"
+            },
+            "game_state": {
+                "type": "string",
+                "description": "Markdown table outlining the current state of the game, including active quests and objectives.",
+                "contentMediaType": "text/markdown-table"
+            },
+            "possible_actions": {
+                "type": "string",
+                "description": "Markdown table listing possible actions the player can take, including learned and innate skills.",
+                "contentMediaType": "text/markdown-table"
+            }
+        },
+        "required": ["player_status", "inventory", "equipment", "surroundings", "game_state", "possible_actions"]
+    }
+}

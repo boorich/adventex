@@ -1,0 +1,9 @@
+{
+  "name": "stealth",
+  "description": "Enter stealth mode to avoid detection by enemies or listen in on conversations.",
+  "parameters": {
+    "type": "object",
+    "properties": {},
+    "required": []
+  }
+}

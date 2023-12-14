@@ -1,0 +1,9 @@
+{
+  "name": "questlog",
+  "description": "Displays a list of current and completed quests or objectives.",
+  "parameters": {
+    "type": "object",
+    "properties": {},
+    "required": []
+  }
+}

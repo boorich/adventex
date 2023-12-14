@@ -1,0 +1,19 @@
+{
+  "name": "status",
+  "description": "Provides information about your character’s current health, mana, condition, or any status effects. Optionally, you can specify a character's name to inquire about their status.",
+  "parameters": {
+    "type": "object",
+    "properties": {
+      "character": {
+        "type": "string",
+        "description": "The name of the character to inquire about (optional)."
+      },
+      "status_table": {
+        "type": "string",
+        "description": "Markdown table representation of character status",
+        "example": "| Character Name | Health  | Mana  | Status Effect    |\n|-----------------|---------|-------|-------------------|\n| John            | 100/100 | 50/50 | None              |\n| Jane            | 75/100  | 30/50 | Poisoned          |"
+      }
+    },
+    "required": []
+  }
+}

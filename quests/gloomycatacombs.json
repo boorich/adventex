@@ -1,0 +1,50 @@
+{
+  "name": "Catacombs",
+  "quests": [
+    {
+      "place": "Gloomy Catacombs",
+      "quests": [
+        {
+          "name": "Breach the Tomb of Shadows",
+          "type": "main",
+          "description": "Delve into the depths of the Gloomy Catacombs and breach the 'Tomb of Shadows.' Along the way, you'll encounter 'Spectral Guardians' and 'Grave Wraiths' that guard the tomb's entrance. Prepare to confront these ethereal foes and find a way to unlock the tomb's secrets.",
+          "enemies": ["Spectral Guardians", "Grave Wraiths"],
+          "boss": null,
+          "questLoot": ["Ectoplasmic Elixir"]
+        },
+        {
+          "name": "Release the Trapped Spirits",
+          "type": "main",
+          "description": "Unearth the 'Restless Souls' imprisoned within the Gloomy Catacombs. To achieve this, you must navigate the treacherous catacomb passages, fend off the relentless 'Spectral Guardians,' and locate the 'Tome of Liberation.' Use the tome to free the tormented spirits from their eternal confinement.",
+          "enemies": ["Spectral Guardians"],
+          "boss": null,
+          "questLoot": ["Cursed Relics"]
+        },
+        {
+          "name": "Seek the Lost Explorer",
+          "type": "side",
+          "description": "Embark on a side quest to find the 'Lost Explorer' who ventured deep into the Gloomy Catacombs in search of a legendary artifact. As you navigate the labyrinthine tunnels, be cautious of traps set by previous explorers and the lurking 'Grave Wraiths.'",
+          "enemies": ["Grave Wraiths"],
+          "boss": null,
+          "questLoot": ["Explorer's Journal"]
+        },
+        {
+          "name": "Banish the Tomb's Curse",
+          "type": "main",
+          "description": "Discover the source of the malevolent curse that plagues the Gloomy Catacombs. To succeed, you must overcome the dark magic that lingers within and confront the 'Cursed Guardian' at the heart of the tomb.",
+          "enemies": ["Cursed Guardian", "Spectral Guardians"],
+          "boss": "Cursed Guardian",
+          "questLoot": ["Cursed Relics", "Tomb's Cursebreaker"]
+        },
+        {
+          "name": "Uncover the Catacomb's History",
+          "type": "side",
+          "description": "Embark on a quest to unveil the forgotten history of the Gloomy Catacombs. Seek ancient tomes and inscriptions hidden within its depths while dealing with the ever-present threat of 'Spectral Guardians' who protect these secrets.",
+          "enemies": ["Spectral Guardians"],
+          "boss": null,
+          "questLoot": ["Ancient Tomes", "Cryptic Inscriptions"]
+        }
+      ]
+    }
+  ]
+}

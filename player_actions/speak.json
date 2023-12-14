@@ -1,0 +1,14 @@
+{
+  "name": "speak",
+  "description": "Initiates a conversation with a specific character.",
+  "parameters": {
+    "type": "object",
+    "properties": {
+      "character": {
+        "type": "string",
+        "description": "The character to speak with."
+      }
+    },
+    "required": ["character"]
+  }
+}

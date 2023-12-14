@@ -1,0 +1,54 @@
+{
+  "name": "Wasteland",
+  "quests": [
+    {
+      "place": "Cursed Wasteland",
+      "quests": [
+        {
+          "name": "Break the Curses of the Wasteland",
+          "type": "main",
+          "description": "Embark on a perilous journey to break the ancient curses that shroud the Cursed Wasteland. Consult the 'Cursed Runestones' scattered throughout the region for clues on how to weaken the 'Cursed Undead' and 'Soul Eaters.' Retrieve 'Purification Stones' and use them to cleanse cursed artifacts.",
+          "enemies": ["Cursed Undead", "Soul Eaters"],
+          "boss": null,
+          "questLoot": ["Cursed Runestones", "Purification Stones"]
+        },
+        {
+          "name": "Banish the Soul Eaters",
+          "type": "main",
+          "description": "Confront the malevolent 'Soul Eaters' that plague the Cursed Wasteland. Seek guidance from the 'Seer of Lost Souls' to discover their weaknesses, gather 'Ectoplasmic Essences' from defeated enemies, and use these essences to banish the 'Soul Eaters' from the realm.",
+          "enemies": ["Soul Eaters", "Seer of Lost Souls"],
+          "boss": "Dreadlord Malrak",
+          "questLoot": ["Ectoplasmic Essences", "Seer's Vision"]
+        },
+        {
+          "name": "Recover the Lost Relics",
+          "type": "side",
+          "description": "Embark on a side quest to recover the 'Cursed Relics' that are scattered throughout the Cursed Wasteland. Beware of 'Grave Robbers' and 'Spectral Guardians' that guard these relics. Once found, return them to the 'Sanctuary of Lost Souls' for cleansing.",
+          "enemies": ["Grave Robbers", "Spectral Guardians"],
+          "boss": null,
+          "questLoot": ["Cursed Relics", "Sanctified Relic"]
+        },
+        {
+          "name": "Unearth the Secrets of the Abyssal Portal",
+          "type": "main",
+          "description": "Discover the source of the 'Abyssal Portal,' a rift in the Cursed Wasteland that threatens to unleash even greater darkness. Delve into the 'Abyssal Chamber' and confront the 'Abyssal Cultists' who seek to exploit its power.",
+          "enemies": ["Abyssal Cultists", "Voidspawn Abominations"],
+          "boss": "Abyssal High Priestess",
+          "questLoot": ["Abyssal Runes", "Abyssal Amulet"]
+        },
+        {
+          "name": "Face the Guardian of Shadows",
+          "type": "main",
+          "description": "Prepare to face the formidable 'Guardian of Shadows,' a cursed sentinel guarding the heart of the Cursed Wasteland. Assemble a 'Cursed Relic Key' by collecting fragments from fallen enemies and unlock the way to the guardian's lair.",
+          "enemies": ["Guardian of Shadows", "Cursed Soulstalkers"],
+          "boss": "Guardian of Shadows",
+          "questLoot": [
+            "Cursed Relic Fragments",
+            "Cursed Relic Key",
+            "Guardian's Shadowblade"
+          ]
+        }
+      ]
+    }
+  ]
+}

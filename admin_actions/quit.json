@@ -1,0 +1,9 @@
+{
+  "name": "quit",
+  "description": "Exits the game or ends the current gaming session. Automatically saves the game before quitting.",
+  "parameters": {
+    "type": "object",
+    "properties": {},
+    "required": []
+  }
+}

@@ -1,0 +1,198 @@
+{
+    "player_name": "The currently active player's name",
+    "skills": {
+      "Warrior": {
+        "Level 1": {
+          "name": "Shadowstrike",
+          "description": "Infuse your sword with shadow energy for a devastating strike.",
+          "is_unlocked": true,
+          "action": "Perform Shadowstrike"
+        },
+        "Level 2": {
+          "name": "Soulcleave",
+          "description": "Rip through your enemy's soul, causing lasting torment.",
+          "is_unlocked": false,
+          "action": "Execute Soulcleave",
+          "branches": {
+            "Branch 1": {
+              "name": "Abyssal Fury",
+              "description": "Unleash the fury of the abyss, shattering your foes.",
+              "is_unlocked": false,
+              "action": "Invoke Abyssal Fury"
+            },
+            "Branch 2": {
+              "name": "Dreadquake",
+              "description": "Send shockwaves of dread through the earth, crippling your enemies.",
+              "is_unlocked": false,
+              "action": "Trigger Dreadquake"
+            }
+          }
+        },
+        "Level 3": {
+          "name": "Darksteel Bastion",
+          "description": "Form an impenetrable barrier of darksteel, defying all harm.",
+          "is_unlocked": false,
+          "action": "Summon Darksteel Bastion",
+          "branches": {
+            "Branch 1": {
+              "name": "Netherreaver",
+              "description": "Summon a nightmarish entity to reap the souls of your foes.",
+              "is_unlocked": false,
+              "action": "Summon Netherreaver"
+            },
+            "Branch 2": {
+              "name": "Eclipseblade",
+              "description": "Wield the Eclipseblade, a weapon of pure darkness.",
+              "is_unlocked": false,
+              "action": "Empower Eclipseblade"
+            }
+          }
+        }
+      },
+      "Rogue": {
+        "Level 1": {
+          "name": "Shadowstep",
+          "description": "Vanish into the shadows and reappear behind your unsuspecting prey.",
+          "is_unlocked": true,
+          "action": "Use Shadowstep"
+        },
+        "Level 2": {
+          "name": "Venomstrike",
+          "description": "Inject venom so potent that it corrodes your enemy from within.",
+          "is_unlocked": false,
+          "action": "Deliver Venomstrike",
+          "branches": {
+            "Branch 1": {
+              "name": "Blacksurge",
+              "description": "Channel the black surge of darkness, tearing through your target.",
+              "is_unlocked": false,
+              "action": "Channel Blacksurge"
+            },
+            "Branch 2": {
+              "name": "Nightshade Veil",
+              "description": "Conceal yourself in the nightshade veil, rendering you nearly invisible.",
+              "is_unlocked": false,
+              "action": "Invoke Nightshade Veil"
+            }
+          }
+        },
+        "Level 3": {
+          "name": "Eldershadow Ambush",
+          "description": "Ambush your foes with the power of ancient shadows, leaving them paralyzed.",
+          "is_unlocked": false,
+          "action": "Execute Eldershadow Ambush",
+          "branches": {
+            "Branch 1": {
+              "name": "Abyssal Daggerstorm",
+              "description": "Unleash a storm of abyssal daggers, striking down all in your path.",
+              "is_unlocked": false,
+              "action": "Invoke Abyssal Daggerstorm"
+            },
+            "Branch 2": {
+              "name": "Bloodmoon Whispers",
+              "description": "Harness the eerie whispers of the bloodmoon, sowing fear in your enemies' hearts.",
+              "is_unlocked": false,
+              "action": "Channel Bloodmoon Whispers"
+            }
+          }
+        }
+      },
+      "Mage": {
+        "Level 1": {
+          "name": "Voidfire Bolt",
+          "description": "Launch a bolt of searing voidfire, consuming your target's essence.",
+          "is_unlocked": true,
+          "action": "Cast Voidfire Bolt"
+        },
+        "Level 2": {
+          "name": "Astral Torrent",
+          "description": "Unleash a torrent of astral energy, bending reality to your will.",
+          "is_unlocked": false,
+          "action": "Release Astral Torrent",
+          "branches": {
+            "Branch 1": {
+              "name": "Eldritch Nexus",
+              "description": "Form an eldritch nexus, drawing power from the realms beyond.",
+              "is_unlocked": false,
+              "action": "Create Eldritch Nexus"
+            },
+            "Branch 2": {
+              "name": "Starfall Cascade",
+              "description": "Invoke a cascading shower of starfall, obliterating your foes.",
+              "is_unlocked": false,
+              "action": "Invoke Starfall Cascade"
+            }
+          }
+        },
+        "Level 3": {
+          "name": "Eclipsewrath",
+          "description": "Summon the wrath of the eclipse, obliterating all in its shadow.",
+          "is_unlocked": false,
+          "action": "Channel Eclipsewrath",
+          "branches": {
+            "Branch 1": {
+              "name": "Primordial Conduit",
+              "description": "Become a conduit of primordial energies, transcending mortal limits.",
+              "is_unlocked": false,
+              "action": "Become Primordial Conduit"
+            },
+            "Branch 2": {
+              "name": "Abyssal Sunder",
+              "description": "Sunder the abyss, tearing a rift in reality to destroy your enemies.",
+              "is_unlocked": false,
+              "action": "Sunder the Abyss"
+            }
+          }
+        }
+      },
+      "Healer": {
+        "Level 1": {
+          "name": "Soulbloom",
+          "description": "Bloom the souls of your allies, restoring their vitality.",
+          "is_unlocked": true,
+          "action": "Invoke Soulbloom"
+        },
+        "Level 2": {
+          "name": "Celestial Ward",
+          "description": "Erect a celestial ward, shielding your allies from harm.",
+          "is_unlocked": false,
+          "action": "Cast Celestial Ward",
+          "branches": {
+            "Branch 1": {
+              "name": "Resonance of Renewal",
+              "description": "Resonate the renewal of life, reviving fallen allies.",
+              "is_unlocked": false,
+              "action": "Resonate Renewal"
+            },
+            "Branch 2": {
+              "name": "Elysian Mirage",
+              "description": "Create an elysian mirage, confusing and disorienting your foes.",
+              "is_unlocked": false,
+              "action": "Manifest Elysian Mirage"
+            }
+          }
+        },
+        "Level 3": {
+          "name": "Sacred Aegis",
+          "description": "Invoke the sacred aegis, a divine shield that wards against all harm.",
+          "is_unlocked": false,
+          "action": "Invoke Sacred Aegis",
+          "branches": {
+            "Branch 1": {
+              "name": "Astral Resurrection",
+              "description": "Resurrect fallen allies with the essence of the astral plane.",
+              "is_unlocked": false,
+              "action": "Resurrect with Astral Essence"
+            },
+            "Branch 2": {
+              "name": "Heaven's Blessing",
+              "description": "Bestow Heaven's Blessing upon your allies, granting divine power.",
+              "is_unlocked": false,
+              "action": "Bestow Heaven's Blessing"
+            }
+          }
+        }
+      }
+    }
+  }
+  

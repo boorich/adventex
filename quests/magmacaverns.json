@@ -1,0 +1,50 @@
+{
+  "name": "Underground",
+  "quests": [
+    {
+      "place": "Magma Caverns",
+      "quests": [
+        {
+          "name": "Survive the Inferno",
+          "type": "main",
+          "description": "Descend into the treacherous depths of the 'Magma Caverns' where molten danger lurks at every turn. Face 'Lava Elementals' and 'Fire Drakes' to survive the searing heat.",
+          "enemies": ["Lava Elementals", "Fire Drakes"],
+          "boss": "Inferno Lord Ignar",
+          "questLoot": ["Infernal Core", "Blazing Scepter"]
+        },
+        {
+          "name": "Hunt the Firelord's Heart",
+          "type": "main",
+          "description": "Embark on a perilous quest to hunt down the 'Firelord's Heart,' a legendary source of infernal power hidden within the 'Magma Caverns.' Beware of cunning traps and fiery guardians.",
+          "enemies": ["Fire Guardians", "Molten Guardians"],
+          "boss": "Ignar, the Firelord",
+          "questLoot": ["Heart of Flames", "Fireforged Blade"]
+        },
+        {
+          "name": "Forging with Fire",
+          "type": "side",
+          "description": "Assist a skilled blacksmith on a mission to gather rare 'Molten Ores' deep within the 'Magma Caverns.' Defend against 'Magma Elementals' while collecting the valuable resources.",
+          "enemies": ["Magma Elementals", "Molten Guardians"],
+          "boss": null,
+          "questLoot": ["Molten Ingots", "Forgemaster's Hammer"]
+        },
+        {
+          "name": "The Obsidian Enigma",
+          "type": "side",
+          "description": "Investigate the mystery of the 'Obsidian Enigma,' a rare and enigmatic gemstone. Traverse treacherous lava flows and battle 'Obsidian Golems' to unveil its secrets.",
+          "enemies": ["Obsidian Golems", "Molten Wardens"],
+          "boss": null,
+          "questLoot": ["Obsidian Enigma", "Molten Mystery"]
+        },
+        {
+          "name": "Rise of the Phoenix",
+          "type": "main",
+          "description": "Witness the rebirth of the legendary 'Phoenix' deep within the 'Magma Caverns.' Protect the newborn phoenix from threats as it gains its fiery strength.",
+          "enemies": ["Cauterian Devourers", "Phoenix Predators"],
+          "boss": "Emberclaw, the Phoenix Lord",
+          "questLoot": ["Phoenix Feather", "Eternal Flame"]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "name": "Caves",
+  "quests": [
+    {
+      "place": "Crystal Caves",
+      "quests": [
+        {
+          "name": "Explore the Crystal Caves",
+          "type": "main",
+          "description": "Embark on a daring expedition deep into the heart of the 'Crystal Caves.' Navigate treacherous crystal formations, contend with 'Crystal Spiders,' and unearth the cavern's secrets.",
+          "enemies": ["Crystal Spiders", "Gemstone Golems"],
+          "boss": null,
+          "questLoot": ["Prismatic Crystals", "Crystalheart Dagger"]
+        },
+        {
+          "name": "Unearth the Heart of the Crystals",
+          "type": "main",
+          "description": "Delve even deeper into the 'Crystal Caves' to discover the legendary 'Crystalheart.' Face the guardian 'Gemstone Golems,' decipher crystal puzzles, and claim the heart's power.",
+          "enemies": ["Gemstone Golems", "Crystal Guardians"],
+          "boss": "Guardian of the Crystalheart",
+          "questLoot": ["Crystalheart Shard", "Luminous Gemstaff"]
+        },
+        {
+          "name": "Whispers in the Depths",
+          "type": "side",
+          "description": "Investigate mysterious whispers echoing within the cave's chambers. Encounter 'Echoing Spirits,' gather fragments of lost memories, and unveil the secrets concealed by the crystals.",
+          "enemies": ["Echoing Spirits", "Crystal Wisps"],
+          "boss": null,
+          "questLoot": ["Memory Fragments", "Resonance Chalice"]
+        },
+        {
+          "name": "Crystalline Conundrum",
+          "type": "side",
+          "description": "Solve the 'Crystalline Conundrum,' a complex crystal puzzle rumored to hold ancient knowledge. Beware of shifting crystal mazes and thwart crystal traps along the way.",
+          "enemies": ["Crystal Guardians", "Labyrinthine Crystals"],
+          "boss": null,
+          "questLoot": ["Puzzle Key", "Crystalline Scroll"]
+        },
+        {
+          "name": "Guardians of the Prism",
+          "type": "main",
+          "description": "Protect the 'Prism of the Ancients' from those who would misuse its power. Face an onslaught of foes led by 'Prismatic Wardens' and safeguard the fate of the 'Crystal Caves.'",
+          "enemies": ["Prismatic Wardens", "Elemental Conduits"],
+          "boss": "Aurora, the Prism Guardian",
+          "questLoot": ["Prism of Ancients", "Spectral Prismcloak"]
+        }
+      ]
+    }
+  ]
+}

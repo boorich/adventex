@@ -1,0 +1,9 @@
+{
+  "name": "help",
+  "description": "Offers hints or tips on how to proceed if you’re stuck.",
+  "parameters": {
+    "type": "object",
+    "properties": {},
+    "required": []
+  }
+}

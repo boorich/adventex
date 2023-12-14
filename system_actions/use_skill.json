@@ -1,0 +1,36 @@
+{
+    "name": "use_skill",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "player_name": {
+          "type": "string",
+          "description": "Unique name of the current player to determine skill ownership and progression."
+        },
+        "scene_name": {
+          "type": "string",
+          "description": "The name of the current scene in which the skill is being used."
+        },
+        "skill_name": {
+          "type": "string",
+          "description": "Name of the skill being used."
+        },
+        "is_available": {
+          "type": "boolean",
+          "description": "Indicates whether the skill is currently available to the player."
+        },
+        "is_usable_in_scene": {
+          "type": "boolean",
+          "description": "Indicates whether the skill can be used within the context of the current scene."
+        }
+      },
+      "required": [
+        "player_name",
+        "scene_name",
+        "skill_name",
+        "is_available",
+        "is_usable_in_scene"
+      ]
+    },
+    "description": "Manages the usage of skills based on skill availability and scene context."
+  }

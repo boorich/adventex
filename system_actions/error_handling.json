@@ -1,0 +1,73 @@
+{
+    "name": "error_handling",
+    "description": "Implement error handling to present errors and warnings to the player and recover from errors gracefully.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "errors": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "error_code": {
+                "type": "string",
+                "description": "A unique code identifying the error."
+              },
+              "message": {
+                "type": "string",
+                "description": "A user-friendly error message to display to the player."
+              }
+            },
+            "required": ["error_code", "message"]
+          },
+          "description": "A list of possible errors and their corresponding messages."
+        },
+        "warnings": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "warning_code": {
+                "type": "string",
+                "description": "A unique code identifying the warning."
+              },
+              "message": {
+                "type": "string",
+                "description": "A user-friendly warning message to display to the player."
+              }
+            },
+            "required": ["warning_code", "message"]
+          },
+          "description": "A list of possible warnings and their corresponding messages."
+        }
+      },
+      "required": ["errors", "warnings"]
+    },
+    "error_messages": {
+      "generic_error": "An error occurred. Please try again later.",
+      "recovery_success": "The game has recovered successfully."
+    },
+    "preprocessing": [
+      {
+        "if": {
+          "property": "error",
+          "required": true
+        },
+        "then": {
+          "error": "generic_error"
+        }
+      }
+    ],
+    "postprocessing": [
+      {
+        "if": {
+          "property": "recovery_successful",
+          "required": true
+        },
+        "then": {
+          "message": "recovery_success"
+        }
+      }
+    ]
+  }
+  

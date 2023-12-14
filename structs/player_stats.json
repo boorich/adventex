@@ -1,0 +1,60 @@
+{
+  "player": {
+    "name": "Currently Active Player's Name",
+    "character_class": "Warrior",
+    "level": 1,
+    "experience": 0,
+    "health": {
+      "current": 100,
+      "max": 100
+    },
+    "mana": {
+      "current": 50,
+      "max": 50
+    },
+    "attributes": {
+      "strength": 10,
+      "agility": 8,
+      "intelligence": 6
+    },
+    "inventory": [
+      {
+        "name": "Health Potion",
+        "description": "Restores health points.",
+        "quantity": 3
+      },
+      {
+        "name": "Mana Elixir",
+        "description": "Restores mana points.",
+        "quantity": 2
+      }
+    ],
+    "equipment": {
+      "head": {
+        "name": "Iron Helmet",
+        "description": "Protects the head from damage."
+      },
+      "body": {
+        "name": "Leather Armor",
+        "description": "Provides basic protection for the body."
+      },
+      "hands": {},
+      "legs": {
+        "name": "Chainmail Leggings",
+        "description": "Durable leg protection."
+      },
+      "feet": {
+        "name": "Leather Boots",
+        "description": "Sturdy and comfortable footwear."
+      },
+      "main_hand": {
+        "name": "Steel Sword",
+        "description": "A versatile sword for combat."
+      },
+      "off_hand": {},
+      "current_place": "A random location in the world."
+    },
+    "skilltree_file": "player_skills.json"
+  },
+  "errors": []
+}

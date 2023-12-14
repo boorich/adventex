@@ -1,0 +1,15 @@
+{
+  "name": "inventory",
+  "description": "Displays a list of items currently in your possession. Formatted as a table in markdown. First Row is the header, second row is the separator, and the rest of the rows are the items. First column is the item name, second column is the item description, third column is the item quantity, and the fourth column is the item weight.",
+  "parameters": {
+    "type": "object",
+    "properties": {
+      "items_table": {
+        "type": "string",
+        "description": "Markdown table representation of items",
+        "example": "| Item Name        | Item Description | Item Quantity | Item Weight |\n|------------------|-------------------|---------------|-------------|\n| Health Potion    | Restores 50 HP    | 5             | 0.2         |\n| Scroll of Wisdom | Grants knowledge  | 1             | 0.1         |\n| Iron Key         | Opens a door      | 3             | 0.05        |"
+      }
+    },
+    "required": ["items_table"]
+  }
+}

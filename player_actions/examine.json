@@ -1,0 +1,14 @@
+{
+  "name": "examine",
+  "description": "Provides a detailed description of the specified object, person, or place.",
+  "parameters": {
+    "type": "object",
+    "properties": {
+      "target": {
+        "type": "string",
+        "description": "The object, person, or place to examine."
+      }
+    },
+    "required": ["target"]
+  }
+}

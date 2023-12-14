@@ -1,0 +1,14 @@
+{
+  "name": "use",
+  "description": "Uses an item from your inventory.",
+  "parameters": {
+    "type": "object",
+    "properties": {
+      "item": {
+        "type": "string",
+        "description": "The item to use."
+      }
+    },
+    "required": ["item"]
+  }
+}

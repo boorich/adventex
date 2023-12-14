@@ -1,0 +1,15 @@
+{
+  "name": "equipment",
+  "description": "Displays a list of items currently equipped by the player. Formatted as a table in markdown. First Row is the header, second row is the separator, and the rest of the rows are the items. First column is the item name, second column is the item slot, third column is the item quality, and the fourth column is the item weight. If the item is a weapon, the fifth column is the damage it deals. If the item is clothes, the fifth column is the armor it provides. If the item is an artifact, the fifth column is the effect it has on the player.",
+  "parameters": {
+    "type": "object",
+    "properties": {
+      "items_table": {
+        "type": "string",
+        "description": "Markdown table representation of items",
+        "example": "| Item Name        | Item Slot   | Item Quality | Item Weight | Damage/Armor/Effect |\n|------------------|-------------|--------------|-------------|---------------------|\n| Steel Sword      | Main Hand   | Rare         | 6.8         | 15-20               |\n| Leather Armor    | Chest       | Common       | 8.0         | 12                  |"
+      }
+    },
+    "required": ["items_table"]
+  }
+}

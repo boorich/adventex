@@ -1,0 +1,50 @@
+{
+  "name": "Mountain",
+  "quests": [
+    {
+      "place": "Shadowed Peaks",
+      "quests": [
+        {
+          "name": "Conquer the Shadowed Peaks",
+          "type": "main",
+          "description": "Embark on an epic journey to 'Conquer the Shadowed Peaks.' Face ferocious 'Shadow Beasts' and 'Twilight Drakes' as you ascend the treacherous mountains. Uncover the lost history of this shadowy realm.",
+          "enemies": ["Shadow Beasts", "Twilight Drakes"],
+          "boss": null,
+          "questLoot": ["Shadowcrystal Ore", "Veilshroud Cloak"]
+        },
+        {
+          "name": "Unlock the Secrets of Twilight",
+          "type": "main",
+          "description": "Seek out the 'Twilight Altar' hidden deep within the peaks and 'Unlock the Secrets of Twilight.' Solve intricate puzzles and gather 'Luminous Crystals' to harness the unique power of twilight magic.",
+          "enemies": ["Twilight Guardians", "Luminous Crystals"],
+          "boss": null,
+          "questLoot": ["Twilight Sigil", "Lunar Staff"]
+        },
+        {
+          "name": "Bane of the Shadow Beasts",
+          "type": "side",
+          "description": "Protect the local settlements from the relentless 'Shadow Beasts.' Track down their lairs and eliminate the threat to ensure the safety of the mountain villages.",
+          "enemies": ["Shadow Beast Packs", "Alpha Shadow Beast"],
+          "boss": null,
+          "questLoot": ["Beastbane Charm", "Guardian's Tribute"]
+        },
+        {
+          "name": "Sorcery of the Eclipse",
+          "type": "side",
+          "description": "Unravel the 'Sorcery of the Eclipse' that shrouds the peaks during lunar events. Collect 'Eclipsed Runestones' and confront 'Eclipse Shamans' to harness this mysterious power.",
+          "enemies": ["Eclipse Shamans", "Eclipsed Spirits"],
+          "boss": null,
+          "questLoot": ["Eclipsed Runestones", "Lunar Amulet"]
+        },
+        {
+          "name": "Guardian of the Abyss",
+          "type": "main",
+          "description": "Discover the ancient guardian known as the 'Twilight Serpent.' Defeat this formidable 'Shadow Guardian' to reveal the hidden truths of the peaks and restore balance.",
+          "enemies": ["Twilight Serpent", "Shadow Guardian Minions"],
+          "boss": "Twilight Serpent",
+          "questLoot": ["Twilight Scale", "Eclipseblade"]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "name": "summon",
+  "description": "Summon a magical or mythical creature to assist you. You can only summon creatures you have successfully tamed before.",
+  "parameters": {
+    "type": "object",
+    "properties": {
+      "creature": {
+        "type": "string",
+        "description": "The name of the creature to summon."
+      }
+    },
+    "required": ["creature"]
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "name": "game_initialization",
+  "description": "Initialization for the game world, characters, and settings.",
+  "initializations": [
+    {
+      "name": "character_creation",
+      "description": "The character creation process.",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "tutorial_text": {
+            "type": "string",
+            "description": "Welcome to the world of Dúnbane! In this tutorial, you'll create your character."
+          },
+          "choose_name": {
+            "type": "string",
+            "description": "Choose your character's name. Check your knowledge for the characters.json file."
+          },
+          "choose_gender": {
+            "type": "string",
+            "description": "Choose your character's gender (Male/Female/Non-binary)."
+          },
+          "choose_age": {
+            "type": "integer",
+            "description": "Choose your character's age."
+          },
+          "choose_job": {
+            "type": "string",
+            "description": "Choose your character's job (Mage Apprentice/Warrior Apprentice/Archer Apprentice/Healer Apprentice)."
+          }
+        },
+        "required": ["tutorial_text", "choose_name", "choose_gender", "choose_age", "choose_job"]
+      }
+    },
+    {
+      "name": "world_initialization",
+      "description": "The lore and setting of the dark and mysterious medieval fantasy world of Dúnbane.",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "world": {
+            "type": "object",
+            "properties": {
+              "name": {
+                "type": "string",
+                "description": "The name of the dark and mysterious medieval fantasy world."
+              },
+              "description": {
+                "type": "string",
+                "description": "A description of the world's atmosphere and themes."
+              },
+              "themes": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                },
+                "description": "Themes that define the world (e.g., Darkness, Mystery, Ancient Prophecies, gaelic)."
+              }
+            },
+            "required": ["name", "description", "themes"]
+          },
+          "characters": {
+            "type": "string",
+            "description": "Check your knowledge for the characters.json file."
+          },
+          "places": {
+            "type": "string",
+            "description": "Check your knowledge for the places.json file."
+          },
+          "artifacts": {
+            "type": "string",
+            "description": "Check your knowledge for the artifacts.json file."
+          }
+        },
+        "required": ["world", "characters", "places", "artifacts"]
+      }
+    }
+  ]
+}

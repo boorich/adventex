@@ -1,0 +1,50 @@
+{
+  "name": "Ruins",
+  "quests": [
+    {
+      "place": "Eerie Ruins",
+      "quests": [
+        {
+          "name": "Lift the Curse on the Eerie Ruins",
+          "type": "main",
+          "description": "Embark on a quest to lift the ancient curse that shrouds the 'Eerie Ruins.' Seek out the 'Cursed Guardians' and confront 'Spectral Phantoms' to uncover the source of the curse.",
+          "enemies": ["Cursed Guardians", "Spectral Phantoms"],
+          "boss": null,
+          "questLoot": ["Cursed Relics", "Haunting Sigil"]
+        },
+        {
+          "name": "Recover the Lost Tome of Shadows",
+          "type": "main",
+          "description": "Discover the 'Lost Tome of Shadows' hidden deep within the 'Eerie Ruins.' Navigate treacherous traps and decipher cryptic runes while fending off 'Cursed Guardians' to claim the tome.",
+          "enemies": ["Cursed Guardians", "Dark Runes"],
+          "boss": null,
+          "questLoot": ["Lost Tome of Shadows", "Shadowforged Quill"]
+        },
+        {
+          "name": "Echoes of the Past",
+          "type": "side",
+          "description": "Uncover 'Echoes of the Past' by investigating spectral visions within the ruins. Solve puzzles left by ancient inhabitants and unravel the 'Forgotten Ritual' to ease the spirits' torment.",
+          "enemies": ["Spectral Apparitions", "Forgotten Guardians"],
+          "boss": null,
+          "questLoot": ["Ancient Engravings", "Ethereal Chalice"]
+        },
+        {
+          "name": "Whispers in the Darkness",
+          "type": "side",
+          "description": "Listen to the 'Whispers in the Darkness' that emanate from the ruins. Follow cryptic clues and navigate the labyrinthine passages to find the 'Cryptic Relics.' Beware of 'Haunting Whispers.'",
+          "enemies": ["Whispering Shadows", "Cryptic Sentinels"],
+          "boss": null,
+          "questLoot": ["Cryptic Relics", "Silent Cloak"]
+        },
+        {
+          "name": "Restoring Lost Memories",
+          "type": "main",
+          "description": "Aid a tormented spirit in 'Restoring Lost Memories.' Unearth fragments of the spirit's past scattered throughout the ruins. Face 'Memory Guardians' and recover 'Forgotten Emblems.'",
+          "enemies": ["Memory Guardians", "Fragmented Memories"],
+          "boss": "Lost Soul of the Ruins",
+          "questLoot": ["Forgotten Emblems", "Soulbound Locket"]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "name": "Pools",
+  "quests": [
+    {
+      "place": "Mystic Pools",
+      "quests": [
+        {
+          "name": "Seek the Blessings of the Mystic Pools",
+          "type": "main",
+          "description": "Journey to the 'Mystic Pools' and seek the blessings of the ancient spirits. Complete sacred rituals, honor the 'Spirit Guardians,' and gain their favor.",
+          "enemies": ["Tainted Spirits", "Corrupted Nymphs"],
+          "boss": null,
+          "questLoot": ["Purified Ewer", "Spirit-Touched Crystals"]
+        },
+        {
+          "name": "Cleanse the Tainted Waters",
+          "type": "main",
+          "description": "Discover that the 'Mystic Pools' are tainted by dark forces. Embark on a quest to cleanse the waters, confront the 'Corrupting Shadows,' and restore the pools' purity.",
+          "enemies": ["Corrupting Shadows", "Shadowbound Naiads"],
+          "boss": "Umbrathar, the Shadow-Touched",
+          "questLoot": ["Eclipsed Crystal", "Moonlit Vessel"]
+        },
+        {
+          "name": "Lost Melodies",
+          "type": "side",
+          "description": "Hear haunting melodies echoing from the depths of the 'Mystic Pools.' Investigate the source, appease the 'Melancholic Spirits,' and learn forgotten songs.",
+          "enemies": ["Melancholic Spirits", "Echoing Sirens"],
+          "boss": null,
+          "questLoot": ["Siren's Lyre", "Harmony Pearls"]
+        },
+        {
+          "name": "Guardians of the Waters",
+          "type": "side",
+          "description": "Uncover the history of the 'Mystic Pools' and the guardians who watch over them. Collect 'Aqua Relics' scattered throughout the area and earn the guardians' trust.",
+          "enemies": ["Aqua Relic Defenders", "Guardian Sprites"],
+          "boss": null,
+          "questLoot": ["Aqua Relics", "Guardian's Trinket"]
+        },
+        {
+          "name": "Dawn of the Crescent Moon",
+          "type": "main",
+          "description": "Witness a celestial event known as the 'Dawn of the Crescent Moon.' Protect the pools from the 'Eclipse Cultists' who seek to disrupt the ritual and steal moonlit power.",
+          "enemies": ["Eclipse Cultists", "Lunar Guardians"],
+          "boss": "Seleneia, Moonlit Enchantress",
+          "questLoot": ["Crescent Moon Sigil", "Lunar Ecliptica"]
+        }
+      ]
+    }
+  ]
+}

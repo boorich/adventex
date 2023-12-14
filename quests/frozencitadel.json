@@ -1,0 +1,50 @@
+{
+  "name": "Citadel",
+  "quests": [
+    {
+      "place": "Frozen Citadel",
+      "quests": [
+        {
+          "name": "Thaw the Frozen Citadel",
+          "type": "main",
+          "description": "Embark on a quest to thaw the 'Frozen Citadel' and uncover the ancient secrets locked within its icy halls. Face 'Frost Guardians' and 'Icebound Sentinels' as you seek the 'Heart of Winter.'",
+          "enemies": ["Frost Guardians", "Icebound Sentinels"],
+          "boss": null,
+          "questLoot": ["Heart of Winter", "Glacial Shards"]
+        },
+        {
+          "name": "Face the Guardian of Frost",
+          "type": "main",
+          "description": "Challenge the 'Guardian of Frost,' a formidable guardian protecting the inner sanctum of the 'Frozen Citadel.' Defeat 'Frostbane' in an epic battle to claim its 'Frostforged Blade.'",
+          "enemies": ["Frostbane, Guardian of Frost"],
+          "boss": "Frostbane",
+          "questLoot": ["Frostforged Blade", "Chillsteel Armor"]
+        },
+        {
+          "name": "Seeking Lost Artifacts",
+          "type": "side",
+          "description": "Scour the depths of the 'Frozen Citadel' for 'Lost Artifacts' buried within the ice. Beware of 'Ancient Ice Elementals' and retrieve valuable relics to uncover their history.",
+          "enemies": ["Ancient Ice Elementals", "Glacial Spirits"],
+          "boss": null,
+          "questLoot": ["Lost Artifacts", "Ancient Medallion"]
+        },
+        {
+          "name": "The Specter's Plight",
+          "type": "main",
+          "description": "Assist a tormented 'Specter' within the citadel's frozen halls. Uncover the 'Specter's Past' and put their soul to rest. Face 'Echoes of Regret' and find the 'Frozen Soulstone.'",
+          "enemies": ["Echoes of Regret", "Frozen Shadows"],
+          "boss": "Specter of Regret",
+          "questLoot": ["Frozen Soulstone", "Spectral Hauberk"]
+        },
+        {
+          "name": "Rituals of the Frost Warden",
+          "type": "side",
+          "description": "Investigate the 'Rituals of the Frost Warden' performed by cultists within the citadel. Confront 'Frost Cultists' and disrupt their dark rites. Retrieve 'Frost Ward Totems' to end their rituals.",
+          "enemies": ["Frost Cultists", "Frostbound Ritualists"],
+          "boss": null,
+          "questLoot": ["Frost Ward Totems", "Frost Rune Scroll"]
+        }
+      ]
+    }
+  ]
+}

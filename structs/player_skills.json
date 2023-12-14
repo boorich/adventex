@@ -1,0 +1,12 @@
+{
+    "player_name": "Currently Active Player's Name",
+    "skills": [
+      {
+        "name": "",
+        "description": "",
+        "is_unlocked": false,
+        "action": ""
+      }
+    ]
+  }
+  

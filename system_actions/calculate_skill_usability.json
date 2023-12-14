@@ -1,0 +1,31 @@
+{
+    "name": "calculate_skill_usability",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "player_id": {
+          "type": "string",
+          "description": "Unique identifier for the player to determine skill ownership and progression."
+        },
+        "scene_name": {
+          "type": "string",
+          "description": "The name of the current scene in which skill usability is being calculated."
+        },
+        "skill_name": {
+          "type": "string",
+          "description": "Name of the skill being checked for usability."
+        },
+        "skill_tree": {
+          "type": "object",
+          "description": "The player's skill tree object, which contains information about unlocked skills."
+        }
+      },
+      "required": [
+        "player_id",
+        "scene_name",
+        "skill_name",
+        "skill_tree"
+      ]
+    },
+    "description": "Calculates whether a skill is usable within the bounds of a scene context."
+  }

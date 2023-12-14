@@ -1,0 +1,9 @@
+{
+  "name": "pause",
+  "description": "Pauses the game.",
+  "parameters": {
+    "type": "object",
+    "properties": {},
+    "required": []
+  }
+}

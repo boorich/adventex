@@ -1,0 +1,9 @@
+{
+  "name": "map",
+  "description": "Shows a map of the current area if available. If not, draw one with Dall-E",
+  "parameters": {
+    "type": "object",
+    "properties": {},
+    "required": []
+  }
+}

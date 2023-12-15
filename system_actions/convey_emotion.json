@@ -1,0 +1,15 @@
+{
+    "name": "convey_emotion",
+    "description": "Interpret and convey emotions expressed through emojis in short prompts. This function analyzes the context and tone of the prompt and generates a response that reflects the intended emotion conveyed by the emoji.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "prompt": {
+          "type": "string",
+          "description": "The short prompt text that may contain one or more emojis expressing emotions."
+        }
+      },
+      "required": ["prompt"]
+    }
+  }
+  

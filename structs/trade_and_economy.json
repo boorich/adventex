@@ -1,0 +1,33 @@
+{
+    "Economy": {
+      "description": "Dúnbane's economy thrives on the trade of rare materials like Shadowstone, Blightwood, and Soulshard Crystals. It is dominated by wealthy sorcerer-kings who control the production and distribution of these resources."
+    },
+    "Guilds": {
+      "description": "Mercenary guilds, assassins, and thieves' guilds play a significant role in securing and transporting valuable resources across the treacherous landscape of Dúnbane."
+    },
+    "Common Folk": {
+      "description": "The common folk in Dúnbane often face oppression and hardship, with a stark divide between the wealthy ruling elite and the struggling populace."
+    },
+    "Black Markets": {
+      "description": "Illegal black markets thrive in the shadows of Dúnbane, dealing in forbidden magical items, cursed artifacts, and dangerous poisons. They are run by secretive underworld syndicates."
+    },
+    "Tribute to the Deity": {
+      "description": "A portion of the realm's wealth is regularly offered as tribute to the vengeful deity believed to have cursed Dúnbane. Failure to make these offerings is said to bring calamity upon the land."
+    },
+    "Soul Trade": {
+      "description": "The illicit trade of captured souls, often housed in Soulshard Crystals, is a dark and lucrative business in Dúnbane. Necromancers and warlocks are the primary buyers."
+    },
+    "Cursed Relics Auctions": {
+      "description": "Dúnbane hosts clandestine auctions where cursed relics, powerful artifacts, and rare resources are sold to the highest bidder. Attendees risk their lives to acquire these items."
+    },
+    "Bounty Hunting": {
+      "description": "Bounty hunters roam Dúnbane, tracking down individuals who have stolen or betrayed the wealthy elite. Bounties are paid handsomely, but these hunts are perilous."
+    },
+    "Sacrificial Rituals": {
+      "description": "Dark cults in Dúnbane conduct sacrificial rituals, offering captured enemies or the common folk as sacrifices to appease the vengeful deity and gain its favor."
+    },
+    "Cursed Currency": {
+      "description": "Dúnbane has its own currency, minted from cursed metals. This currency is believed to carry dark enchantments and can influence the behavior of those who possess it."
+    }
+  }
+  

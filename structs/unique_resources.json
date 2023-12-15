@@ -1,0 +1,33 @@
+{
+    "Shadowstone": {
+      "description": "A rare, gem-like material formed from the tears of ancient, imprisoned demons. It absorbs and manipulates light, making it highly sought after for crafting magical artifacts and weapons."
+    },
+    "Blightwood Trees": {
+      "description": "Trees with black, twisted trunks and blood-red leaves. They provide rare, dark timber known as Blightwood, which is incredibly durable and resistant to decay. Blightwood is used for crafting cursed staffs, formidable warships, and more."
+    },
+    "Soulshard Crystals": {
+      "description": "Crystals found deep within the mines of Dúnbane, containing the captured souls of the damned. Prized by necromancers and dark enchanters for powering their spells and rituals."
+    },
+    "Abyssal Gems": {
+      "description": "A type of precious gemstone that can only be found in the darkest, hidden caves of Dúnbane. Abyssal Gems are believed to grant visions of the realm's future to those who possess them."
+    },
+    "Ebonthorn Plants": {
+      "description": "Ebonthorn is a sinister plant native to Dúnbane. Its thorns are razor-sharp and can be used to craft deadly poisoned weapons. The sap of Ebonthorn plants is known to induce terrifying hallucinations."
+    },
+    "Bloodstone Veins": {
+      "description": "Underground veins of Bloodstone, a mineral that is said to pulsate with an eerie crimson glow. Bloodstone is used to create blood magic spells and can be harnessed for its life-stealing properties."
+    },
+    "Spectral Crystals": {
+      "description": "Crystals found within haunted caverns that emit an eerie, ghostly light. They are prized for their ability to reveal hidden truths and uncover invisible enchantments."
+    },
+    "Netherwood Roots": {
+      "description": "Netherwood trees have roots that extend deep into the underworld. Their roots are used by shadowy alchemists to brew elixirs that grant visions of other realms and dimensions."
+    },
+    "Dread Silk": {
+      "description": "Produced by arachnid-like creatures native to Dúnbane, Dread Silk is a strong, dark, and sticky material. It is used to weave cloaks that grant the wearer the power of invisibility."
+    },
+    "Cursed Crystals": {
+      "description": "Crystals tainted by ancient curses, said to carry the torment of the damned. They are used by warlocks to summon malevolent spirits and fuel dark rituals."
+    }
+  }
+  

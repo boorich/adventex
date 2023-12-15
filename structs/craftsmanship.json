@@ -1,0 +1,33 @@
+{
+    "Voidforging": {
+      "description": "A unique crafting technique involving infusing Shadowstone into weapons, armor, and other items to imbue them with dark magic. Skilled Voidforgers can manipulate the shadows, granting their creations a range of powers."
+    },
+    "Bloodweaving": {
+      "description": "A secretive order of Bloodweavers who create intricate, blood-infused tapestries and textiles using their own blood and that of creatures from the realm. These fabrics enhance magical abilities or offer protection against curses."
+    },
+    "Soulbound Artifacts": {
+      "description": "Craftsmen and enchanters in Dúnbane create Soulbound Artifacts bound to the essence of a specific individual, drawing power from their life force. These artifacts grant immense power but also make the wielder vulnerable."
+    },
+    "Necroforging": {
+      "description": "A forbidden craft practiced by necromancers, Necroforging involves using the bones of the deceased to create cursed weapons and armor. These items can drain the life force of their victims."
+    },
+    "Whisperweave": {
+      "description": "A rare textile crafted from the web-like strands of spectral spiders. Whisperweave is used to create robes and cloaks that allow the wearer to communicate with the spirits of the dead."
+    },
+    "Plague Alchemy": {
+      "description": "Alchemy practitioners in Dúnbane have developed a sinister form of alchemy known as Plague Alchemy. They create poisons, diseases, and potions that can devastate entire regions."
+    },
+    "Shadowforging": {
+      "description": "A specialized crafting technique that involves using the darkness of Dúnbane to imbue weapons with shadowy powers. Shadowforged weapons are known for their ability to induce fear in enemies."
+    },
+    "Cursed Engravings": {
+      "description": "Artisans in Dúnbane can create cursed engravings on weapons and armor, which can inflict misfortune, madness, or other supernatural effects upon those who bear them."
+    },
+    "Soulcarver Statues": {
+      "description": "Master sculptors carve statues from Obsidian Heartstone, a rare material said to contain the essence of fallen warriors. These statues are believed to protect the places they adorn."
+    },
+    "Abyssal Potions": {
+      "description": "Alchemists create Abyssal Potions using Abyssal Gems, granting those who drink them visions of otherworldly realms and knowledge of forbidden magic."
+    }
+  }
+  

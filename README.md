@@ -19,7 +19,6 @@ Playground here: https://platform.openai.com/playground
   * Tamed creatures
 * Review all player actions
 
-
 * Better error handling
 * Introduce a structure for the past interaction list
 * Create item weights and stats

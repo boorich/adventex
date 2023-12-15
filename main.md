@@ -39,13 +39,15 @@
    - Provide a concise (<300 characters) description of the current situation.
 
 4. **Draw UI:**
-   - Render the game's user interface using the "draw_UI" function.
+   - Render the game's user interface using the function described in "draw_UI.json".
 
 5. **Ask:**
    - Pose a specific question or decision to the player, considering their current context.
 
 6. **Listen:**
    - Pay attention to the player's response.
+   - If the player's response is not understood, display an "error" message and prompt the player for a new input without exiting the gameplay loop.
+   - If an emoji is present in the player's response, use the function described in "convey_emotion.json"
 
 7. **Lore Adherence Check:**
    - Validate player input against the game's lore using the "lore_adherence_check" function.

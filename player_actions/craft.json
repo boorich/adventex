@@ -1,6 +1,6 @@
 {
   "name": "craft",
-  "description": "Combine items to craft new items or tools.",
+  "description": "Combine items to craft new items or tools. Can be used by mages to craft new spells.",
   "parameters": {
     "type": "object",
     "properties": {

@@ -1,44 +1,72 @@
 {
   "name": "update_player_stats",
-  "description": "Update player statistics based on in-game actions, interactions, and events, dynamically inferring experience points.",
+  "description": "Update player statistics based on in-game actions, interactions, and events, dynamically inferring experience points. Additionally, this function allows for the introduction of user-generated content, such as new characters or items. In case of errors, this function generates error messages as specified in `error-handling.json`.",
   "parameters": {
-      "type": "object",
-      "properties": {
-          "player_stats_file": {
-              "type": "string",
-              "description": "Check your knowledge for the player_stats.json file to update its content."
-          },
-          "game_actions": {
-              "type": "array",
-              "items": {
-                  "type": "object",
-                  "properties": {
-                      "action_type": {
-                          "type": "string",
-                          "description": "Type of in-game action or interaction."
-                      },
-                      "action_data": {
-                          "type": "object",
-                          "description": "Data associated with the action, e.g., dialogue choices, exploration results."
-                      }
-                  },
-                  "required": ["action_type", "action_data"]
-              },
-              "description": "Array of in-game actions and interactions to process."
-          },
-          "player_skills_file": {
-              "type": "string",
-              "description": "Check your knowledge for the player_skills.json file to update its content."
-          },
-          "characters_file": {
-              "type": "string",
-              "description": "Check your knowledge for the characters.json file to update its content."
-          },
-          "places_file": {
-              "type": "string",
-              "description": "Check your knowledge for the places.json file to update its content."
-          }
+    "type": "object",
+    "properties": {
+      "player_stats_file": {
+        "type": "string",
+        "description": "Check your knowledge for the player_stats.json file to update its content."
       },
-      "required": ["player_stats_file", "game_actions", "player_skills_file", "characters_file", "places_file"]
+      "game_actions": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "action_type": {
+              "type": "string",
+              "description": "Type of in-game action or interaction."
+            },
+            "action_data": {
+              "type": "object",
+              "description": "Data associated with the action, e.g., dialogue choices, exploration results."
+            }
+          },
+          "required": ["action_type", "action_data"]
+        },
+        "description": "Array of in-game actions and interactions to process."
+      },
+      "player_skills_file": {
+        "type": "string",
+        "description": "Check your knowledge for the player_skills.json file to update its content."
+      },
+      "characters_file": {
+        "type": "string",
+        "description": "Check your knowledge for the characters.json file to update its content."
+      },
+      "places_file": {
+        "type": "string",
+        "description": "Check your knowledge for the places.json file to update its content."
+      },
+      "user_generated_content": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "content": {
+              "type": "object",
+              "description": "User-generated content to introduce into the game. This can include new characters, items, or any other game-related elements."
+            },
+            "log_message": {
+              "type": "string",
+              "description": "A message to display to the player when this user-generated content is introduced."
+            }
+          },
+          "required": ["content"]
+        }
+      },
+      "error_handling_file": {
+        "type": "string",
+        "description": "Check your knowledge for the error-handling.json file to specify error messages."
+      }
+    },
+    "required": [
+      "player_stats_file",
+      "game_actions",
+      "player_skills_file",
+      "characters_file",
+      "places_file",
+      "error_handling_file"
+    ]
   }
 }
